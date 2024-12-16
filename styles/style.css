@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: inter;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+    margin: 22px 80px 192px 83px;
+}
+
+.header__logo {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+}
+
+.header__navigation {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+.header__socials {
+    display: flex;
+    gap: 16px;
+}
+
+.subscription__Div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 106px;
+    margin-bottom: 192px;
+}
+
+.subscription__FirstPart {
+    width: 440px;
+}
+
+h1 {
+    margin-bottom: 32px;
+    font-size: 48px;
+}
+
+.subscription__Lorem {
+    margin-bottom: 32px;
+    font-size: 15px;
+}
+
+.subscription__Email {
+    padding: 12px 16px;
+    padding-right: 80px;
+}
+
+.subscription__Button--Blue {
+    background-color: #503AE7;
+    padding: 14px 32px;
+    border: none;
+    color: white;
+    margin-left: -6px;
+    font-weight: 700;
+}
+
+.columns_Div {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.column__Small--Blue {
+    width: 32px;
+    height: 100px;
+    background-color: #503AE7;
+}
+
+.column__Big--Green {
+    width: 32px;
+    height: 256px;
+    background-color: #1AD993;
+}
+
+.column__Medium--Blue {
+    width: 32px;
+    height: 178px;
+    background-color: #503AE7;
+}
+
+.column__Small--Green {
+    width: 32px;
+    height: 100px;
+    background-color: #1AD993;
+}
+
+.column__Big--Blue {
+    width: 32px;
+    height: 256px;
+    background-color: #503AE7;
+}
+
+.column__Medium--Green {
+    width: 32px;
+    height: 178px;
+    background-color: #1AD993;
+}
+
+.podcasts__Div {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 128px;
+}
+
+#podcasts {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.Text__AndPicture {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.text {
+    width: 593px;
+}
+
+.Little__Line--Div {
+    width: 20px;
+    display: inline-block;
+    height: 8px;
+    background-color: #832BC1;
+    margin-left: 78px;
+    margin-bottom: 72px;
+}
+
+.Big__Line--Div {
+    width: 58px;
+    display: inline-block;
+    height: 8px;
+    background-color: #832BC1;
+    margin-left: 357px;
+    margin-bottom: 72px;
+}
+
+.entrepreneur__Header {
+    width: 411px;
+    margin-left: 51px;
+    margin-bottom: 28px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.entrepreneur__Paragraph {
+    width: 411px;
+    margin-left: 51px;
+    margin-bottom: 72px;
+    font-size: 16px;
+}
+
+.Big__Line--Green {
+    width: 58px;
+    height: 8px;
+    background-color: #1AD993;
+}
+
+.Container__Pictures {
+    width: 710px;
+    background-color: #503AE7;
+}
+
+.pictures {
+    position: relative;
+    margin-top: 56px;
+    margin-left: 93px;
+    margin-bottom: 56px;
+}
+
+.asianDude {
+    position: relative;
+}
+
+.Lil__Green--Line {
+    width: 28px;
+    display: inline-block;
+    height: 8px;
+    background-color: #1AD993;
+    position: absolute;
+    left: 1px;
+    top: 70px;
+}
+
+.blackWoman {
+    position: absolute;
+    bottom: 50px;
+    left: 1px;
+}
+
+.lines {
+    position: absolute;
+    bottom: 116px;
+    right: 174px;
+}

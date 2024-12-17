@@ -113,7 +113,7 @@ h1 {
     margin-bottom: 128px;
 }
 
-#podcasts {
+.podcasts {
     font-size: 24px;
     font-weight: 600;
 }
@@ -122,10 +122,11 @@ h1 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-bottom: 128px;
 }
 
 .text {
-    width: 593px;
+    width: 600px;
 }
 
 .Little__Line--Div {
@@ -154,7 +155,7 @@ h1 {
     font-weight: 700;
 }
 
-.entrepreneur__Paragraph {
+.Default__Paragraph {
     width: 411px;
     margin-left: 51px;
     margin-bottom: 72px;
@@ -168,13 +169,13 @@ h1 {
 }
 
 .Container__Pictures {
-    width: 710px;
+    width: 900px;
     background-color: #503AE7;
 }
 
 .pictures {
     position: relative;
-    margin-top: 56px;
+    margin-top: 60px;
     margin-left: 93px;
     margin-bottom: 56px;
 }
@@ -202,5 +203,304 @@ h1 {
 .lines {
     position: absolute;
     bottom: 116px;
-    right: 174px;
+    left: 340px;
+}
+
+.youtube__Div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 128px;
+}
+
+.Youtube__Picture--Div {
+    width: 840px;
+    height: 600px;
+}
+
+.dude {
+   width: 840px;
+   position: absolute;
+}
+
+.Videos {
+    position: relative;
+    width: 310px;
+    padding: 32px 32px 32px 32px;
+    background-color: #503AE7;
+    color: white;
+    font-size: 26px;
+    margin-left: 16px;
+    top: 450px;
+    left: 545px;
+}
+
+.youtube__Text {
+    width: 542px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Youtube__Line {
+    margin-bottom: 70px;
+    margin-left: 280px;
+}
+
+.youtube__header {
+    width: 330px;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.Purple__Youtube {
+    color: #503AE7;
+}
+
+.Youtube__Paragraph {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.episodes__Div {
+    width: 1820px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 128px;
+}
+
+.episodes__Start {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Recents {
+    margin-left: 55px;
+    margin-bottom: 16px;
+}
+
+.See__All {
+    padding: 12px 32px;
+    background-color: #503AE7;
+    color: white;
+    font-weight: 600;
+    margin-right: 30px;
+    margin-top: 50px;
+    border: none;
+}
+
+.Episode__Count {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Episode__One {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Episodes__Picture {
+    position: absolute;
+    width: 600px;
+}
+
+.Mic__Icon {
+    position: relative;
+    width: 50px;
+    left: 540px;
+    top: 10px;
+}
+
+.Episodes__Text {
+    position: relative;
+    margin-top: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.Episodes__Header {
+    font-size: 32px;
+    margin-bottom: 16;
+}
+
+.Episodes__Paragraph {
+    margin-left: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.Listen__Now {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color:#503AE7;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.ratings__Div {
+    width: 1825px;
+    margin: auto;
+}
+
+.ratings__Header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Listeners__Say {
+    margin-bottom: 16px;
+    font-size: 32px;
+}
+
+.ratings__Paragraph {
+    margin-left: 0;
+}
+
+.ratings__Header--Arrows {
+    align-self: center;
+}
+
+.ratings__Main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rating__OneOfThree {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 450px;
+    margin-bottom: 70px;
+}
+
+.profile {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.Profile__Name {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.Line__One {
+    width: 450px;
+    height: 12px;
+    background-color: #503AE7;
+    margin-top: 70px;
+}
+
+.Line__further {
+    margin-top: 110px;
+}
+
+.Blue__Rectangle {
+    width: 1820px;
+    height: 450px;
+    background-color: #503AE7;
+    margin: 0 auto;
+    margin-bottom: 128px;
+}
+
+.Button__Different {
+    background-color: #1AD993;
+    color: black;
+    font-size: 16px;
+    padding: 12px 20px;
+    margin-top: 10px;
+}
+
+.Subscribe__Green {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.recieve {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+}
+
+.Big__Mic {
+    margin-left: 89px;
+    margin-top: 71px;
+}
+
+.lilMic {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 86px;
+    margin-bottom: 55px;
+}
+
+.vector {
+    width: 1820px;
+    margin-top: -100px;
+    opacity: 0.2;
+}
+
+.advertisements {
+    width: 1820px;
+    margin: 0 auto;
+}
+
+.First__Square {
+    width: 500px;
+    height: 516px;
+    background-color: #F4F2FF;
+    overflow: hidden;
+}
+
+.Read__Articles {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.Header__Square {
+    width: 230px;
+    margin-left: 40px;
+    margin-bottom: 75px;
+    padding-top: 40px;
+}
+
+.see__More {
+    color: #503AE7;
+    font-weight: 600;
+}
+
+.Diagonals {
+    display: flex;
+}
+
+.Diagonal__One {
+    width: 75px;
+    height: 232px;
+    background-color: #503AE7;
+    transform: rotate(-140deg);
+}
+
+.Diagonal__Two {
+    width: 75px;
+    height: 614px;
+    background-color: #1AD993;
+    transform: rotate(-140deg);
+    margin-bottom: 250px;
+    margin-left: 40px;
+}
+
+.Diagonal__Three {
+    width: 75px;
+    height: 420px;
+    background-color: #503AE7;
+    transform: rotate(-140deg);
+    margin-left: 180px;
+    margin-top: 150px;
 }

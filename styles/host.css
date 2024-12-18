@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: inter;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+    margin: 22px 80px 192px 83px;
+}
+
+nav a {
+    color: #14142B;
+    text-decoration: none;
+}
+
+a::after {
+    text-decoration: none;
+}
+
+.header__logo {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+}
+
+.header__navigation {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+.header__socials {
+    display: flex;
+    gap: 16px;
+}

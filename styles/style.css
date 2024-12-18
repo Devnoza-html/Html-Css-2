@@ -12,6 +12,15 @@ nav {
     margin: 22px 80px 192px 83px;
 }
 
+nav a {
+    color: #14142B;
+    text-decoration: none;
+}
+
+a::after {
+    text-decoration: none;
+}
+
 .header__logo {
     font-size: 32px;
     font-weight: 700;
@@ -38,7 +47,8 @@ nav {
 }
 
 .subscription__FirstPart {
-    width: 440px;
+    max-width: 440px;
+    width: 100%;
 }
 
 h1 {
@@ -126,7 +136,8 @@ h1 {
 }
 
 .text {
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
 }
 
 .Little__Line--Div {
@@ -148,7 +159,8 @@ h1 {
 }
 
 .entrepreneur__Header {
-    width: 411px;
+    max-width: 411px;
+    width: 100%;
     margin-left: 51px;
     margin-bottom: 28px;
     font-size: 32px;
@@ -156,7 +168,8 @@ h1 {
 }
 
 .Default__Paragraph {
-    width: 411px;
+    max-width: 411px;
+    width: 100%;
     margin-left: 51px;
     margin-bottom: 72px;
     font-size: 16px;
@@ -169,7 +182,8 @@ h1 {
 }
 
 .Container__Pictures {
-    width: 900px;
+    max-width: 900px;
+    width: 100%;
     background-color: #503AE7;
 }
 
@@ -213,18 +227,21 @@ h1 {
 }
 
 .Youtube__Picture--Div {
-    width: 840px;
+    max-width: 840px;
+    width: 100%;
     height: 600px;
 }
 
 .dude {
-   width: 840px;
+   max-width: 840px;
+   width: 100%;
    position: absolute;
 }
 
 .Videos {
     position: relative;
-    width: 310px;
+    max-width: 310px;
+    width: 100%;
     padding: 32px 32px 32px 32px;
     background-color: #503AE7;
     color: white;
@@ -235,7 +252,8 @@ h1 {
 }
 
 .youtube__Text {
-    width: 542px;
+    max-width: 542px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -247,7 +265,8 @@ h1 {
 }
 
 .youtube__header {
-    width: 330px;
+    max-width: 330px;
+    width: 100%;
     font-size: 32px;
     margin-bottom: 32px;
 }
@@ -262,7 +281,8 @@ h1 {
 }
 
 .episodes__Div {
-    width: 1820px;
+    max-width: 1820px;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -295,7 +315,8 @@ h1 {
 }
 
 .Episode__One {
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -303,7 +324,8 @@ h1 {
 
 .Episodes__Picture {
     position: absolute;
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
 }
 
 .Mic__Icon {
@@ -342,7 +364,8 @@ h1 {
 }
 
 .ratings__Div {
-    width: 1825px;
+    max-width: 1825px;
+    width: 100%;
     margin: auto;
 }
 
@@ -373,7 +396,8 @@ h1 {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    width: 450px;
+    max-width: 450px;
+    width: 100%;
     margin-bottom: 70px;
 }
 
@@ -390,7 +414,8 @@ h1 {
 }
 
 .Line__One {
-    width: 450px;
+    max-width: 450px;
+    width: 100%;
     height: 12px;
     background-color: #503AE7;
     margin-top: 70px;
@@ -401,7 +426,8 @@ h1 {
 }
 
 .Blue__Rectangle {
-    width: 1820px;
+    max-width: 1820px;
+    width: 100%;
     height: 450px;
     background-color: #503AE7;
     margin: 0 auto;
@@ -448,13 +474,18 @@ h1 {
 }
 
 .advertisements {
-    width: 1820px;
+    max-width: 1620px;
+    width: 100%;
     margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    margin-bottom: 128px;
 }
 
 .First__Square {
-    width: 500px;
-    height: 516px;
+    max-width: 500px;
+    width: 100%;
+    height: 554px;
     background-color: #F4F2FF;
     overflow: hidden;
 }
@@ -503,4 +534,103 @@ h1 {
     transform: rotate(-140deg);
     margin-left: 180px;
     margin-top: 150px;
+}
+
+.Money {
+    display: flex;
+    flex-direction: column;
+    max-width: 440px;
+    width: 100%;
+    gap: 16px;
+}
+
+.Dineroo {
+    max-width: 500px;
+    width: 100%;
+}
+
+.Money__Header {
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 1.4px;
+    margin-bottom: 16px;
+}
+
+.Money__Paragraph {
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.Read__Now {
+    color: #503AE7;
+    margin-top: 16px;
+}
+
+.Gadgets {
+    display: flex;
+    flex-direction: column;
+    max-width: 440px;
+    width: 100%;
+    gap: 16px;
+    margin-left: 60px;
+}
+
+.Blue__Footer {
+    max-width: 1720px;
+    width: 100%;
+    background-color: #503AE7;
+    margin: 0 auto;
+    position: relative;
+    top: 98px;
+}
+
+.Footer__Header {
+    padding-top: 72px;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 66px;
+}
+
+.Sponsors {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 72px;
+}
+
+.Full__Footer {
+    background-color: #14142B;
+}
+
+.Footer__Main {
+    padding-top: 195px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 96px;
+}
+
+.Navigation, a, .Subscribe {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.Pages {
+    color: white;
+    margin-bottom: 32px;
+}
+
+.Subscribe {
+    gap: 32px;
+}
+
+.CopyWright {
+    background-color: #503AE7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+    color: white;
 }

@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: inter;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+    margin: 22px 80px 192px 83px;
+}
+
+nav a {
+    color: #14142B;
+    text-decoration: none;
+}
+
+a::after {
+    text-decoration: none;
+}
+
+.header__logo {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+}
+
+.header__navigation {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+.header__socials {
+    display: flex;
+    gap: 16px;
+}   
+
+.First__Container {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 48px;
+    justify-content: space-evenly;
+    margin-bottom: 128px;
+}
+
+h1 {
+    font-size: 48px;
+    max-width: 387px;
+    width: 100%;
+}
+
+.First__Container--P {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    max-width: 480px;
+    width: 100%;
+    margin-right: 64px;
+}
+
+.Mic__Image {
+    height: 400px;
+}
+
+.Mic__And--Diagonals {
+    display: flex;
+}
+
+.First__Container--Button {
+    padding: 12px 32px;
+    background-color: #503AE7;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+
+.Diagonals {
+    display: flex;
+    position: relative;
+    right: 250px;
+    bottom: 65px;
+}
+
+.Diagonal__Small--Blue {
+    width: 60px;
+    height: 187px;
+    background-color: #503AE7;
+    transform: rotate(-135deg);
+    position: relative;
+}
+
+.Diagonal__Green {
+    width: 60px;
+    height: 497px;
+    background-color: #1AD993;
+    position: relative;
+    transform: rotate(-135deg);
+    bottom: 20px;
+    left: 30px;
+    z-index: -100;
+}
+
+.Diagonal__Big--Blue {
+    width: 60px;
+    height: 339px;
+    background-color: #503AE7;
+    transform: rotate(-135deg);
+    position: relative;
+    left: 100px;
+    top: 190px;
+}
+
+.Stats__Div {
+    max-width: 1650px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 128px;
+}
+
+.Five__Hundred--Pod {
+    max-width: 405px;
+    width: 100%;
+}
+
+.Stats__Header {
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.Team__Div {
+    display: flex;
+    max-width: 1500px;
+    width: 100%;
+    margin:  0 auto;
+    justify-content: space-around;
+    margin-bottom: 128px;
+}
+
+.Big__Line--Green {
+    width: 58px;
+    height: 8px;
+    background-color: #1AD993;
+    align-self: center;
+}
+
+.Team__Header {
+    max-width: 330px;
+    width: 100%;
+    margin-bottom: 32px;
+    font-size: 32px;
+}
+
+.Team__Paragraphs {
+    display: flex;
+    gap: 32px;
+    max-width: 980px;
+    width: 100%;
+    margin-top: 48px;
+}
+
+.First__Team--P {
+    width: 1480px;
+}
+
+.Second__Team--P span {
+    font-weight: 600;
+}
+
+.Small__Line--Purple {
+    width: 20px;
+    height: 8px;
+    background-color: #832BC1;
+    margin-top: 145px;
+    margin-right: 50px;
+}
+
+.Meet {
+    margin-left: 125px;
+    margin-bottom: 32px;
+}
+
+.Meeting__Div {
+    max-width: 1650px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 128px;
+}
+
+.First__Human {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.Meet {
+    font-size: 40px;
+}
+
+.Blue__Social {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.Meeting__Header {
+    font-size: 32px;
+}
+
+.Status {
+    opacity: 0.7;
+}
+
+.Our__Sponsors {
+    max-width: 1650px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 128px;
+}
+
+.Sponsor {
+    max-width: 502px;
+    width: 100%;
+    height: 224px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F2FF;
+}
+
+.Sponsor__Us {
+    max-width: 502px;
+    width: 100%;
+    height: 224px;
+    background-color: #503AE7;
+}
+
+.Sponsor__Us--Header {
+    width: 150px;
+    margin-top: 32px;
+    margin-left: 32px;
+    color: white;
+    margin-bottom: 64px;
+}
+
+.Contact {
+    margin-left: 32px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.Contact::after {
+    text-decoration: none;
+}
+
+.Green__Line--Thin {
+    width: 39px;
+    height: 4px;
+    background-color: #1AD993;
+    margin-left: 32px;
+    margin-top: 16px;
+}
+
+.episodes__Div {
+    max-width: 1620px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 128px;
+}
+
+.episodes__Start {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Recents {
+    margin-left: 20px;
+    margin-bottom: 16px;
+}
+
+.episodes__Header--P {
+    margin-left: 20px;
+    max-width: 371px;
+    width: 100%;
+    margin-bottom: 64px;
+}
+
+.Episode__Count {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Episode__One {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Episodes__Picture {
+    position: absolute;
+    max-width: 500px;
+    width: 100%;
+}
+
+.Mic__Icon {
+    position: relative;
+    width: 50px;
+    left: 440px;
+    top: 10px;
+    z-index: 100;
+}
+
+.Episodes__Text {
+    position: relative;
+    margin-top: 290px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.Episodes__Header {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.Episodes__Paragraph {
+    margin-left: 0;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+.Listen__Now {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color:#503AE7;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Blue__Footer {
+    max-width: 1720px;
+    width: 100%;
+    background-color: #503AE7;
+    margin: 0 auto;
+    position: relative;
+    top: 98px;
+}
+
+.Footer__Header {
+    padding-top: 72px;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 66px;
+}
+
+.Sponsors {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 72px;
+}
+
+.Full__Footer {
+    background-color: #14142B;
+}
+
+.Footer__Main {
+    padding-top: 195px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 96px;
+}
+
+.Navigation, a, .Subscribe {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.Pages {
+    color: white;
+    margin-bottom: 32px;
+}
+
+.Subscribe {
+    gap: 32px;
+}
+
+.CopyWright {
+    background-color: #503AE7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+    color: white;
+}

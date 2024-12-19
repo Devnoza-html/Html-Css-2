@@ -281,7 +281,7 @@ h1 {
 }
 
 .episodes__Div {
-    max-width: 1820px;
+    max-width: 1620px;
     width: 100%;
     margin: auto;
     display: flex;
@@ -295,8 +295,12 @@ h1 {
 }
 
 .Recents {
-    margin-left: 55px;
+    margin-left: 20px;
     margin-bottom: 16px;
+}
+
+.episodes__Header--P {
+    margin-left: 20px;
 }
 
 .See__All {
@@ -315,7 +319,7 @@ h1 {
 }
 
 .Episode__One {
-    max-width: 600px;
+    max-width: 500px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -324,7 +328,7 @@ h1 {
 
 .Episodes__Picture {
     position: absolute;
-    max-width: 600px;
+    max-width: 500px;
     width: 100%;
 }
 
@@ -364,7 +368,7 @@ h1 {
 }
 
 .ratings__Div {
-    max-width: 1825px;
+    max-width: 1525px;
     width: 100%;
     margin: auto;
 }
@@ -389,7 +393,7 @@ h1 {
 
 .ratings__Main {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .rating__OneOfThree {

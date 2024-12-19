@@ -37,3 +37,168 @@ a::after {
     display: flex;
     gap: 16px;
 }
+
+.First__Container {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 440px;
+    margin-bottom: 128px;
+}
+
+.Small__Line--Green {
+    width: 20px;
+    height: 8px;
+    background-color: #1AD993;
+    align-self: center;
+    margin-right: 111px;
+}
+
+.Small__Line--Blue {
+    width: 24px;
+    height: 8px;
+    background-color: #832BC1;
+}
+
+.First__Container--Text {
+    display: flex;
+}
+
+.About__Host {
+    letter-spacing: 2px;
+    color: #503AE7;
+    margin-bottom: 38px;
+}
+
+h1 {
+    width: 330px;
+    margin-bottom: 38px;
+}
+
+.Text {
+    width: 400px;
+}
+
+.Text p {
+    margin-bottom: 56px;
+}
+
+.Blue__Button {
+    padding: 12px 32px;
+    border: none;
+    background-color: #503AE7;
+    color: white;
+}
+
+.Big__Line--Green {
+    width: 58px;
+    height: 8px;
+    background-color: #1AD993;
+    align-self: flex-end;
+}
+
+.podcasts__Div {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 128px;
+}
+
+.podcasts {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.Second__Container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 128px;
+}
+
+.Second__Container--Text {
+    max-width: 650px;
+    width: 100%;
+    align-self: center;
+    margin-bottom: 130px;
+}
+
+.Second__Container--Text h2 {
+    margin-bottom: 32px;
+    font-size: 32px;
+    max-width: 300px;
+    width: 100%;
+}
+
+.Apparently {
+    max-width: 520px;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.Second__Container--P {
+    max-width: 520px;
+    width: 100%;
+    color: #14142B;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.Big__Line--Purple {
+    width: 58px;
+    height: 8px;
+    background-color: #832BC1;
+    display: flex;
+    justify-self: flex-end;
+    margin-right: 70px;
+}
+
+.Blue__Container {
+    max-width: 390px;
+    width: 100%;
+    height: 124px;
+    background-color: #503AE7;
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    position: relative;
+    bottom: 100px;
+    right: 65px;
+}
+
+.Blue__Container  div {
+    width: 7px;
+    background-color: #1AD993;
+}
+
+.forty {
+    margin-left: 32px;
+}
+
+.Green__Col--Forty {
+    height: 40px;
+}
+
+.Green__Col--FiftyTwo {
+    height: 52px;
+}
+
+.White__Col--Small {
+    height: 53px;
+}
+
+.Green__Col--FiftyNine {
+    height: 59px;
+}
+
+.Green__Col--Ninety {
+    height: 92px;
+}
+
+.White__Col--Med {
+    height: 59px;
+}
+
+.Green__Col--Small {
+    height: 24px;
+}

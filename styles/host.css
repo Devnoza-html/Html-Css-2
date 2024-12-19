@@ -202,3 +202,310 @@ h1 {
 .Green__Col--Small {
     height: 24px;
 }
+
+.Third__Container {
+    display: flex;
+    max-width: 1800px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 128px;
+    justify-content: center;
+}
+
+.Third__Container--Line {
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+
+.Small__Line--Purple {
+    width: 20px;
+    height: 8px;
+    align-self: flex-end;
+    background-color: #832BC1;
+    margin-left: 184px;
+    margin-top: 360px;
+}
+
+.Third__Container--Text {
+    margin-right: 64px;
+}
+
+.Third__Container--Header {
+    width: 351px;
+    font-size: 32px;
+}
+
+.Third__Cont--SecondP span {
+    font-weight: 600;
+}
+
+.Third__Container--P {
+    width: 480px;
+    margin-bottom: 32px;
+}
+
+.Third__Cont--SecondP {
+    width: 480px;
+}
+
+.Second__Part--Header {
+    width: 400px;
+}
+
+.Second__Part--P {
+    margin-bottom: 32px;
+    width: 480px;
+    line-height: 26px;
+}
+
+.Third__Cont--Line {
+    align-self: flex-end;
+    margin-left: 80px;
+}
+
+.Four__Squares {
+    display: flex;
+    max-width: 1700px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+    height: 500px;
+    margin-bottom: 128px;
+}
+
+.First__Square {
+    background-color: #503AE7;
+    align-self: flex-end;
+    width: 300px;
+}
+
+.Square__Image {
+    width: 120px;
+    margin: 0 auto;
+    padding-top: 64px;
+}
+
+.Square__Image img {
+    margin-bottom: 96px;
+    width: 128px;
+}
+
+.Square__Header {
+    color: white;
+    margin-bottom: 16px;
+    margin-left: 40px;
+    font-size: 32px;
+}
+
+.Square__Header--Second {
+    color: white;
+    margin-bottom: 32px;
+    margin-left: 40px;
+    font-size: 28px;
+}
+
+.Second__Square {
+    align-self: flex-start;
+    background-color: #503AE7;
+    width: 300px;
+}
+
+.Fourth__Container {
+    background-image: url(../sideImages/man-in-beige-suit-jacket-sitting-on-chair-6878173.png);
+    padding-top: 128px;
+    padding-bottom: 128px;
+    display: flex;
+    justify-content: space-around;
+    height: 585px;
+    margin-bottom: 128px;
+}
+
+.Fourth__Container--Text {
+    margin-left: 240px;
+    width: 440px;
+}
+
+.Fourth__Container--Header {
+    color: white;
+    font-size: 48px;
+    margin-bottom: 32px;
+}
+
+.Fourth__Container--P {
+    margin-bottom: 32px;
+    color: white;
+}
+
+.Transparent__Button {
+    padding: 12px 32px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Heartbeat {
+    width: 571px;
+    height: 146px;
+    background-color: #503AE7;
+    align-self: flex-end;
+    position: relative;
+    top: 128.5px;
+    left: 162px;
+}
+
+.Heartbeat img {
+    margin: 16px 32px 16px 32px;
+}
+
+.episodes__Div {
+    max-width: 1620px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 128px;
+}
+
+.episodes__Start {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Recents {
+    margin-left: 20px;
+    margin-bottom: 16px;
+}
+
+.episodes__Header--P {
+    margin-left: 20px;
+    max-width: 371px;
+    width: 100%;
+    margin-bottom: 64px;
+}
+
+.See__All {
+    padding: 12px 32px;
+    background-color: #503AE7;
+    color: white;
+    font-weight: 600;
+    margin-right: 30px;
+    margin-top: 50px;
+    border: none;
+}
+
+.Episode__Count {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Episode__One {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Episodes__Picture {
+    position: absolute;
+    max-width: 500px;
+    width: 100%;
+}
+
+.Mic__Icon {
+    position: relative;
+    width: 50px;
+    left: 440px;
+    top: 10px;
+    z-index: 100;
+}
+
+.Episodes__Text {
+    position: relative;
+    margin-top: 290px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.Episodes__Header {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.Episodes__Paragraph {
+    margin-left: 0;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+.Listen__Now {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color:#503AE7;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Blue__Footer {
+    max-width: 1720px;
+    width: 100%;
+    background-color: #503AE7;
+    margin: 0 auto;
+    position: relative;
+    top: 98px;
+}
+
+.Footer__Header {
+    padding-top: 72px;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 66px;
+}
+
+.Sponsors {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 72px;
+}
+
+.Full__Footer {
+    background-color: #14142B;
+}
+
+.Footer__Main {
+    padding-top: 195px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 96px;
+}
+
+.Navigation, a, .Subscribe {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.Pages {
+    color: white;
+    margin-bottom: 32px;
+}
+
+.Subscribe {
+    gap: 32px;
+}
+
+.CopyWright {
+    background-color: #503AE7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+    color: white;
+}

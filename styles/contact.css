@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: inter;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+    margin: 22px 80px 128px 83px;
+}
+
+nav a {
+    color: #14142B;
+    text-decoration: none;
+}
+
+a::after {
+    text-decoration: none;
+}
+
+.header__logo {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+}
+
+.header__navigation {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+.header__socials {
+    display: flex;
+    gap: 16px;
+}
+
+.Everything__Div {
+    display: flex;
+    max-width: 1750px;
+    width: 100%;
+    margin: 0 auto;
+    gap: 300px;
+}
+
+.Interested {
+    margin-top: 16px;
+    margin-bottom: 48px;
+    color: #503AE7;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+input {
+    padding: 16px 400px 16px 16px;
+    background-color: #F4F2FF;
+    border: none;
+    color: #AFB0B9;
+}
+
+textarea {
+    padding: 16px 400px 100px 16px;
+    background-color: #F4F2FF;
+    border: none;
+    color: #AFB0B9;
+    margin-bottom: 32px;
+}
+
+.Contact__Now {
+    padding: 12px 32px;
+    background-color: #503AE7;
+    color: white;
+    border: none;
+    align-self: flex-start;
+}
+
+.Socials {
+    max-width: 750px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Subscription__Div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 522px;
+    gap: 60px;
+    column-gap: 120px;
+    margin-bottom: 84px;
+}
+
+.Subscribe {
+    color: #808080;
+    margin-bottom: 32px;
+}
+
+.imagee {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.Blocks {
+    display: flex;
+    margin-left: 200px;
+}
+
+.Blue__Medium {
+    width: 94px;
+    height: 212px;
+    background-color: #503AE7;
+    position: relative;
+    top: 152px;
+}
+
+.Green__Tall {
+    width: 90px;
+    height: 320px;
+    background-color: #1AD993;
+    position: relative;
+    top: 44px;
+}
+
+.Blue__Short {
+    width: 94px;
+    height: 128px;
+    background-color: #503AE7;
+    position: relative;
+    top: 236px;
+}
